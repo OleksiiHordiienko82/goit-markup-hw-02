@@ -141,6 +141,11 @@ body {
   color: #ffffff;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -180,6 +185,11 @@ body {
 .about {
   background: var(--primary-background-color);
 }
+
+.description-about {
+  font-size: 14px;
+  line-height: 1.71;
+}
 /* ============= END ABOUT ============= */
 
 /* ============= OUR TEAM ============= */
@@ -195,6 +205,11 @@ body {
   background: var(--third-background-color);
 }
 
+.description-team {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
 /* =============END OUR TEAM ============= */
 
 /* =============FOOTER============= */
@@ -204,9 +219,13 @@ body {
 
 .footer-address {
   color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* =============END FOOTER ============= */
