@@ -1,5 +1,16 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --basic-headers-color: #212121;
+  --basic-content-color: #757575;
+  --backgrouns-secondary-color: #2f303a;
+  --primary-background-color: #e5e5e5;
+  --third-background-color: #f5f4fa;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   color: #757575;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -17,58 +28,41 @@ body {
   font-style: normal;
 }
 
-/* ============= BATTONS ============= */
+/* ============= COMPONENTS ============= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 
-.modal-btn {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.85;
-  /* identical to box height, or 187% */
+  color: #2196f3;
+}
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background-color: #2196f3;
-  cursor: pointer;
+.logo-span {
+  color: #212121;
+}
 
+.logo-footer {
   color: #ffffff;
 }
 
-.modal-batton {
+.modal-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* identical to box height, or 162% */
-
-  text-align: center;
   cursor: pointer;
 
   color: #212121;
 }
 
-.modal-batton:hover,
-.modal-batton:focus {
+.modal-button:hover,
+.modal-button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
-/* ============= END BATTONS ============= */
-/* ============= TITLES ============= */
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  /*color: #ffffff;*/
-}
 .about-us-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -76,35 +70,8 @@ body {
   color: #212121;
 }
 
-.titles {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+/* ============= END COMPONENTS ============= */
 
-  color: #212121;
-}
-
-.our-team-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-
-  color: #212121;
-}
-
-.cards-title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-/* ============= END TITLES ============= */
 /* ============= HEADER ============= */
 
 .navigation-link {
@@ -120,23 +87,9 @@ body {
   color: #2196f3;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  color: #2196f3;
-}
-
-.logo-span {
-  color: #212121;
-}
-
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link-address {
@@ -163,3 +116,87 @@ body {
 }
 
 /* ============= END HEADER ============= */
+
+/* ============= HERO ============= */
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.85;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero {
+  background-color: var(--backgrouns-secondary-color);
+}
+
+/* ============= END HERO ============= */
+
+/* ============= ABOUT ============= */
+.cards-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.titles {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.about {
+  background: var(--primary-background-color);
+}
+/* ============= END ABOUT ============= */
+
+/* ============= OUR TEAM ============= */
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: #212121;
+}
+.team {
+  background: var(--third-background-color);
+}
+
+/* =============END OUR TEAM ============= */
+
+/* =============FOOTER============= */
+.footer {
+  background-color: var(--backgrouns-secondary-color);
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+/* =============END FOOTER ============= */
