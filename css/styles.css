@@ -190,6 +190,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
+.description-cards {
+  font-size: 16px;
+  line-height: 30px;
+}
 /* ============= END ABOUT ============= */
 
 /* ============= OUR TEAM ============= */
