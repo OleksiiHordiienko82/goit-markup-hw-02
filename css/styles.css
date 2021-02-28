@@ -16,7 +16,47 @@ body {
   font-style: normal;
 }
 
+/* ============= COMPONENTS ============= */
+
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.85;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+
+.modal-batton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+}
+
+.modal-batton:hover,
+.modal-batton:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* ============= END COMPONENTS ============= */
+
 /* ============= HEADER ============= */
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -88,5 +128,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  /*color: #ffffff;*/
 }
+
+/* ============= END HERO ============= */
