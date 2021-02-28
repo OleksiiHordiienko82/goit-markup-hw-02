@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #757575;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -16,7 +17,7 @@ body {
   font-style: normal;
 }
 
-/* ============= COMPONENTS ============= */
+/* ============= BATTONS ============= */
 
 .modal-btn {
   font-weight: bold;
@@ -41,7 +42,6 @@ body {
   /* identical to box height, or 162% */
 
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 
   color: #212121;
@@ -53,8 +53,58 @@ body {
   background-color: #2196f3;
 }
 
-/* ============= END COMPONENTS ============= */
+/* ============= END BATTONS ============= */
+/* ============= TITLES ============= */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
 
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /*color: #ffffff;*/
+}
+.about-us-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: #212121;
+}
+
+.titles {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  color: #212121;
+}
+
+.cards-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+/* ============= END TITLES ============= */
 /* ============= HEADER ============= */
 
 .navigation-link {
@@ -76,8 +126,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
-
-  letter-spacing: 0.03em;
 
   color: #2196f3;
 }
@@ -115,20 +163,3 @@ body {
 }
 
 /* ============= END HEADER ============= */
-
-/* ============= HERO ============= */
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  /*color: #ffffff;*/
-}
-
-/* ============= END HERO ============= */
