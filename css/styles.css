@@ -40,7 +40,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-light-theme {
@@ -92,7 +92,7 @@ body {
 }
 
 .active-link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation-link:hover,
@@ -110,7 +110,7 @@ body {
 
 .link-address:hover,
 .link-address:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* ============= END HEADER ============= */
@@ -126,7 +126,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   cursor: pointer;
 
   color: #ffffff;
